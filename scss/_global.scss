@@ -4,25 +4,23 @@
 
 /*header*/
 header {
-  background-color: rgb(31, 102, 150);
+  background-color: $primary-color;
 }
 
 /*footer*/
 footer {
-  background-color: rgb(0, 27, 65);
+  background-color: $secundary-color;
   margin-top: -10px;
 }
-
 .btn {
   text-transform: uppercase;
   height: 25px;
   border-radius: 4px;
-  background-color: rgb(31, 102, 150);
+  background-color: $primary-color;
   color: white;
   border: none;
   animation: shaking 2s infinite;
 }
-
 @keyframes shaking {
   10% {
     transform: scale(1.05) rotate(5deg);
@@ -37,28 +35,3 @@ footer {
     transform: none;
   }
 }
-.article-index {
-  margin-bottom: 75px;
-}
-
-.article-ubicacion {
-  margin-bottom: 100px;
-}
-
-.article-ubicacion__ubi {
-  margin-bottom: 60px;
-}
-
-.arcticle-presupuesto__tabla {
-  margin-bottom: 125px;
-}
-
-.arcticle-presupuesto {
-  margin-bottom: 150px;
-}
-
-.article-contacto {
-  margin-bottom: 115px;
-}
-
-/*# sourceMappingURL=style.css.map */
