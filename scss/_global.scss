@@ -1,10 +1,17 @@
 * {
-  font-family: "Fira Sans", sans-serif;
+  font-family: "Arvo", serif;
 }
 
 /*header*/
 header {
   background-color: $primary-color;
+}
+/*navbar*/
+.navbarlogo {
+  margin-right: 15px;
+}
+.navbarpages {
+  text-align: center;
 }
 
 /*footer*/
