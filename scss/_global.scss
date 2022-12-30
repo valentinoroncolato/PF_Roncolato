@@ -13,7 +13,9 @@ header {
 .navbarpages {
   text-align: center;
 }
-
+.sectionbody {
+  background-color: $body-color;
+}
 /*footer*/
 footer {
   background-color: $secundary-color;
@@ -41,4 +43,7 @@ footer {
   40% {
     transform: none;
   }
+}
+.iconosfooter {
+  margin-left: 15px;
 }
