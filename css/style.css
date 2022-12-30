@@ -17,7 +17,7 @@ header {
 }
 
 .sectionbody {
-  background-color: rgb(133, 187, 235);
+  background-color: rgb(162, 198, 230);
 }
 
 /*footer*/
@@ -64,6 +64,10 @@ footer {
 
 .article-ubicacion__ubi {
   margin-bottom: 60px;
+}
+
+.lista-problemas {
+  margin-bottom: 35px;
 }
 
 .arcticle-presupuesto__tabla {
